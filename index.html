@@ -12,14 +12,13 @@
 </head>
 <body>
 
-    <main v-bind:class="color">
         <div id="app">
-            <img :src="link" alt="">
-            <p>{{message}}</p>
-            <p>{{joke}}</p>
+            <section :class="color">
+                <img :src="link" alt="">
+                <p>{{message}}</p>
+                <p>{{joke}}</p>
+            </section>
         </div>
-    
-    </main>
 
 
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
