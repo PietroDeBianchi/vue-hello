@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+}
+
+.mainStyle {
+    background-color: navy;
+}
+
+#app {
+    margin-top: 20vh;
+}
+
+img {
+    width: 160px;
+}
+
+p {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 8px;
+}
